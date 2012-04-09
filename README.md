@@ -9,4 +9,4 @@ An exercise in test-driven development, implementing the rules of the cellular a
 
 ##Screenshot
 
-![Test-Driven Life](https://raw.github.com/robbell/test-driven-life/doc/assets/TestDrivenLife.png)
+![Test-Driven Life](https://github.com/robbell/test-driven-life/raw/master/docs/assets/TestDrivenLife.png)
