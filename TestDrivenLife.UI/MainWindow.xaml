@@ -1,0 +1,28 @@
+﻿<Window x:Class="TestDriveLife.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Test-Driven Life" Height="700" Width="650">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+
+        <Canvas Grid.Row="0" Name="PlayingField" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Canvas Grid.Row="0" Name="UserInputLayer" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MouseDown="UserClick" Background="Transparent" />
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Tick" Click="TickClick" Name="Tick" />
+            <Button Grid.Column="1" Content="Start" Click="StartClick" Name="Start" />
+            <Button Grid.Column="2" Content="Stop" Click="StopClick" Name="Stop" IsEnabled="False" />
+            <Button Grid.Column="3" Content="Clear" Click="ClearClick" />
+        </Grid>
+    </Grid>
+</Window>
