@@ -1,4 +1,4 @@
-﻿<Window x:Class="TestDriveLife.UI.MainWindow"
+﻿<Window x:Class="TestDrivenLife.UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Test-Driven Life" Height="700" Width="650">

@@ -5,10 +5,8 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
-using TestDrivenLife;
-using Grid = TestDrivenLife.Grid;
 
-namespace TestDriveLife.UI
+namespace TestDrivenLife.UI
 {
     public partial class MainWindow
     {
