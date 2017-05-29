@@ -1,4 +1,4 @@
-#Test-Driven Life
+# Test-Driven Life
 
 An exercise in test-driven development, implementing the rules of the cellular automaton, [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life):
 
@@ -7,6 +7,6 @@ An exercise in test-driven development, implementing the rules of the cellular a
 3. Any live cell with more than three live neighbours dies, as if by overcrowding.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
-##Screenshot
+## Screenshot
 
 ![Test-Driven Life](https://github.com/robbell/test-driven-life/raw/master/docs/assets/TestDrivenLife.png)
